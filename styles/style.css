@@ -28,3 +28,22 @@
 .heroimg{
 height: 400px;
 }
+
+/* deal section */
+.order{
+    background-color: rgb(216, 216, 216);
+    height: 200px;
+    width: 1200px;
+margin-left: 100px;
+}
+
+.images{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.textdesign{
+    display: flex;
+    justify-content:space-around;
+    font-size: 20px;
+}
