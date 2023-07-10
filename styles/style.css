@@ -72,7 +72,19 @@ flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-.images{
-
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.textcolor{
+    color: deeppink;
+}
+h3{
+    color: rgb(219, 212, 212);
+}
+h2{
+    font-size: 20px;
+    width: 600px;
+ margin-left: 400px;
 }
