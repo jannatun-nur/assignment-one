@@ -1,29 +1,32 @@
-.heroContainer{
+.heroContainer, .dealContainer{
     background-color: rgb(252, 191, 223);
   height: 400px;
   display: flex;
   justify-content: center;
 
 }
-.text{
-   
-    width: 300px;
- margin-left:30px;
- font-size: 30px;
-}
-.decotext{
-    width: 700px;
+.heroLeft{
     margin-left:30px;
+}
+.heroTitle{
+   
+    width: 350px;
+ 
+ font-size: 35px;
+}
+.heroParagraph, .dealParagraph{
+    width: 700px;
+   
     font-size: 20px;
 }
-.btn1{
+.btn1, .btn2{
     color: white;
     background-color: rgb(219, 109, 127);
    padding: 10px 20px;
    font-size: 15px;
    border: none;
    border-radius: 5px;
-   margin-left:30px;
+  
 }
 .heroimg{
 height: 400px;
@@ -32,9 +35,11 @@ height: 400px;
 /* deal section */
 .order{
     background-color: rgb(216, 216, 216);
-    height: 200px;
+    height:200px;
     width: 1200px;
-margin-left: 100px;
+    margin-left: 100px;
+ padding-top: 20px;
+
 }
 
 .images{
@@ -46,4 +51,17 @@ margin-left: 100px;
     display: flex;
     justify-content:space-around;
     font-size: 20px;
+}
+.dealContainer{
+    background-color: rgb(252, 191, 223);
+    height: 300px;
+}
+.dealLeft{
+    display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dealParagraph{
+    text-align: center;
 }
