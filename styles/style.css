@@ -14,7 +14,7 @@
  
  font-size: 35px;
 }
-.heroParagraph, .dealParagraph{
+.heroParagraph, .dealParagraph, .socialParagraph{
     width: 700px;
    
     font-size: 20px;
@@ -56,7 +56,7 @@ height: 400px;
     background-color: rgb(252, 191, 223);
     height: 300px;
 }
-.dealLeft{
+.dealLeft, .socialTop{
     display: flex;
 flex-direction: column;
     justify-content: center;
@@ -64,4 +64,15 @@ flex-direction: column;
 }
 .dealParagraph{
     text-align: center;
+}
+.color{
+    color: deeppink;
+}
+.socialParagraph{
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+
 }
