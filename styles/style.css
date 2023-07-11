@@ -19,7 +19,7 @@
    
     font-size: 20px;
 }
-.btn1, .btn2{
+.btn1, .btn2, .btn3{
     color: white;
     background-color: rgb(219, 109, 127);
    padding: 10px 20px;
@@ -70,21 +70,38 @@ flex-direction: column;
 }
 .socialParagraph{
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
-footer{
+.LatestDeal{
+    background-image: url( "/FlowerAsset/Rectangle\ 9.png");
+    height: 200px;
+   text-align: center;
+   padding-top:100px;
+   padding-bottom: 100px;
+}
+
+   .email
+   {
+    padding: 10px 200px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    text-align:start;
+}
+.footerContainer{
+    text-align: center;
     background-color: black;
     color: white;
-    text-align: center;
+   padding: 80px;
 }
 .textcolor{
-    color: deeppink;
-}
-h3{
-    color: rgb(219, 212, 212);
+    color:deeppink;
 }
 h2{
-    font-size: 20px;
-    width: 600px;
- margin-left: 400px;
+    width: 700px;
+ margin-left: 300px;
 }
+h3{
+    color: rgb(224, 215, 215);
+}
+
