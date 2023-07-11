@@ -35,9 +35,58 @@ body{
 height: 400px;
 }
 
+/* bonus */
+h3{
+    text-align: center;
+}
+.featuresdiv{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    height:400px;
+    text-align: center;
+    font-size: 20px;
+  
+}
+.iamgess, .iamgess2, .iamgess3{
+    height: 300px;
+    width: 250px;
+   padding-top: 20px;
+   border-top-left-radius: 120px;
+   border-top-right-radius: 120px;  
+} 
+.image1{
+    height: 300px;
+    width: 250px;
+   background-color: rgb(252, 205, 212);
+   padding-top: 20px;
+   border-top-left-radius: 120px;
+   border-top-right-radius: 120px;  
+}
+.image2{
+    height: 300px;
+    width: 250px;
+   background-color:rgb(183, 247, 225);
+   padding-top: 20px;
+   border-top-left-radius: 120px;
+   border-top-right-radius: 120px; 
+}
+.image3{
+    height: 300px;
+    width: 250px;
+   background-color:rgb(216, 206, 206);
+   padding-top: 20px;
+   border-top-left-radius: 120px;
+   border-top-right-radius: 120px; 
+}
+
+
+
+
+
 /* deal section */
 .order{
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(231, 229, 229);
     height:200px;
     width: 1200px;
     margin-left: 100px;
@@ -102,12 +151,24 @@ flex-direction: column;
     text-align:start;
 }
 .reviewsSection{
-    margin-left: 40px;
+  margin: 0px 110px;
     
 }
 .mainParentdiv{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
+}
+.allReviws1, .allReviws2, .allReviws3, .allReviws4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+margin-right: 20px;
+border: 1px solid deeppink;
+padding: 10px;
+border-radius: 10px;
+box-shadow: 2px 2px 5px gray;
 }
 h1{
     text-align: center;
@@ -119,20 +180,15 @@ h1{
     height: 100px;
     width: 100px;
 border-radius: 50%;
+margin-bottom: 10px;
 }
 .reviewsFavIcon{
     color: gold;
 }
 .reviewsParagraph{
-    width: 200px;
+
     font-size: 19px;
 }
-
-
-
-
-
-
 
 .footerContainer{
     text-align: center;
