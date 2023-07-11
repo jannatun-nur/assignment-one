@@ -1,3 +1,7 @@
+body{
+    margin: 0%;
+}
+
 .heroContainer, .dealContainer{
     background-color: rgb(252, 191, 223);
   height: 400px;
@@ -16,7 +20,6 @@
 }
 .heroParagraph, .dealParagraph, .socialParagraph{
     width: 700px;
-   
     font-size: 20px;
 }
 .btn1, .btn2, .btn3{
@@ -41,11 +44,20 @@ height: 400px;
  padding-top: 20px;
 
 }
-
 .images{
     display: flex;
-    justify-content:space-around;
-    
+    justify-content: space-around;
+}
+.instaImages{
+    display: flex;
+
+
+}
+.instaFlower{
+    height:330px;
+    padding-right: 20px;
+
+
 }
 .textdesign{
     display: flex;
@@ -62,7 +74,7 @@ flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.dealParagraph{
+.dealParagraph, .socialParagraph{
     text-align: center;
 }
 .color{
@@ -93,15 +105,21 @@ flex-direction: column;
     background-color: black;
     color: white;
    padding: 80px;
+
 }
 .textcolor{
     color:deeppink;
+   
 }
-h2{
-    width: 700px;
- margin-left: 300px;
+.footerH1{
+    letter-spacing: 3px;
 }
-h3{
+.footerH2{
+   
+ letter-spacing: 3px;
+ font-weight: 500;
+}
+.footerH3{
     color: rgb(224, 215, 215);
 }
 
